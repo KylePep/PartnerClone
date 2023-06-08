@@ -1,0 +1,59 @@
+:root {
+  --darkest: #22533d;
+  --dark: #5caa76;
+  --lightest: #cbd5ae;
+  --light: white;
+  --hightlight: ;
+}
+
+.call-image {
+  background-image: url(https://images.unsplash.com/photo-1672856760106-e2e343defdb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80);
+  min-height: 50vh;
+  max-width: 75vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.video-image {
+  background-color: ;
+
+}
+
+.blog-img {
+  max-width: 80%;
+  height: auto;
+}
+
+.dark-bg {
+  background-color: var(--dark);
+}
+
+.light-bg {
+  background-color: #cbd5ae;
+}
+
+.header-card {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  max-width: 45vw;
+}
+
+.icon-card {
+  position: absolute;
+  top: 10%;
+  right: 28%;
+  max-width: 45vw;
+}
+
+.aboutus-left {
+  height: 45vh;
+  width: 45vh;
+  border-radius: 15%;
+
+}
+
+.text-light {
+  color: ;
+}

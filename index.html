@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+<body class="debug">
+
+  <!-- SECTION header -->
+  <header>
+    <Section class="row dark-bg justify-content-between text-light">
+      <div class="col-2 fs-1"> Impact </div>
+      <div class="col-6 d-flex justify-content-around">
+        <div class="col-1">Home</div>
+        <div class="col-1">About</div>
+        <div class="col-1">Services</div>
+        <div class="col-1">Portfolio</div>
+        <div class="col-1">Team</div>
+        <div class="col-1">Blog</div>
+        <div class="col-1">Drop Down <i class="mdi mdi-arrow-down-box"></i></div>
+        <div class="col-1">Contact</div>
+      </div>
+    </Section>
+  </header>
+
+  <!-- SECTION main -->
+  <main>
+    <!-- SECTION Top image aread -->
+    <section class="row dark-bg text-light">
+      <div class="col-6 fs-1">
+        Welcome to Impact
+        <p class="fs-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, explicabo!</p>
+        <div class="d-flex">
+          <button class="btn btn-secondary">Get Started</button>
+          <button class="btn btn-secondary"> Watch Video</button>
+        </div>
+      </div>
+      <div class="col-6">
+        <img class="img-fluid"
+          src="https://images.unsplash.com/photo-1672856760106-e2e343defdb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
+          alt="hero-image">
+      </div>
+    </section>
+    <!-- SECTION icon cards -->
+    <section class="col-12 d-flex justify-content-around position-relative">
+      <div class="col-3 text-center header-card light-bg">
+        <h1>card 1</h1>
+        <i class="mdi mdi-ice-pop"></i>
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+      <div class="col-3 text-center header-card light-bg">
+        <h1>card 2</h1>
+        <i class="mdi mdi-ice-pop"></i>
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+      <div class="col-3 text-center header-card light-bg">
+        <h1>card 3</h1>
+        <i class="mdi mdi-ice-pop"></i>
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+      <div class="col-3 text-center header-card light-bg">
+        <h1>card 4</h1>
+        <i class="mdi mdi-ice-pop"></i>
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+    </section>
+    <!-- SECTION About Us -->
+    <section class="row ms-4 p-3 justify-content-center">
+      <!-- SECTION left panel about us -->
+      <div class="col-12 text-center">About Us</div>
+      <div class="col-12 text-center"> <i class="mdi mdi-line-scan"></i></div>
+      <div class="col-12 text-center pb-4 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+      <div class="col-5 pe-2 me-2">
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <img class="img-fluid aboutus-left"
+          src="https://images.unsplash.com/photo-1660799950423-15baac67ddf1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80"
+          alt="AboutUs-img">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minima consectetur sit soluta voluptate quia
+          totam labore eveniet amet facere. Dolorum dolorem nam quibusdam consequatur dolores corporis modi consectetur
+          obcaecati!</p>
+      </div>
+      <!-- SECTION right panel about us -->
+      <div class="col-5">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p class="mdi mdi-check">Lorem ipsum dolor sit amet</p>
+        <p class="mdi mdi-check">Lorem ipsum dolor sit amet</p>
+        <p class="mdi mdi-check">Lorem ipsum dolor sit amet</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, reprehenderit libero! Explicabo iusto
+          nostrum perspiciatis quisquam ea. Placeat, delectus. In maxime odit perferendis quibusdam debitis quidem ab,
+          magnam unde non.</p>
+        <img class="img-fluid aboutus-left"
+          src="https://images.unsplash.com/photo-1672856760106-e2e343defdb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
+          alt="AboutUs-img-2">
+      </div>
+    </section>
+    <!-- SECTION Graphic-Stats -->
+    <!-- SECTION Graphic-stats left panel -->
+    <section class="row p-3 m-3">
+      <div class="col-6">
+        <img class="img-fluid"
+          src="https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=852&q=80"
+          alt="Stats-img">
+      </div>
+      <!-- SECTION Graphic-stats right panel -->
+      <div class="col-6">
+        <div class="d-flex">
+          <h1 class="text-success">232
+            <h2 class="d-flex">Happy Clients
+              <p>Lorem ipsum dolor sit.</p>
+            </h2>
+          </h1>
+        </div>
+        <div class="d-flex">
+          <h1 class="text-success">232
+            <h2 class="d-flex">Happy Clients
+              <p>Lorem ipsum dolor sit.</p>
+            </h2>
+          </h1>
+        </div>
+        <div class="d-flex">
+          <h1 class="text-success">232
+            <h2 class="d-flex">Happy Clients
+              <p>Lorem ipsum dolor sit.</p>
+            </h2>
+          </h1>
+        </div>
+      </div>
+      <div class="col-8">
+        <!-- <p class="">Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet.</p> -->
+      </div>
+      </div>
+    </section>
+    <!-- SECTION embedded video -->
+    <section class="img-fluid row justify-content-center position-relative">
+      <img
+        src="https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=852&q=80"
+        alt="" class="col-8 rounded">
+      <button class="icon-card">play</button>
+
+      <!-- <div class="col-12">
+        <img src="" alt=""> -->
+      </div>
+    </section>
+    <!-- SECTION Our Services -->
+    <section class="row">
+      <div class="col-12 text-center">Our Services</div>
+      <div class="col-4">
+        <i class="mdi mdi-book-open-blank-variant"></i>
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <button>click</button>
+      </div>
+      <div class="col-4">
+        <i class="mdi mdi-book-open-blank-variant"></i>
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <button>click</button>
+      </div>
+      <div class="col-4">
+        <i class="mdi mdi-book-open-blank-variant"></i>
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <button>click</button>
+      </div>
+      <div class="col-4">
+        <i class="mdi mdi-book-open-blank-variant"></i>
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <button>click</button>
+      </div>
+      <div class="col-4">
+        <i class="mdi mdi-book-open-blank-variant"></i>
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <button>click</button>
+      </div>
+      <div class="col-4">
+        <i class="mdi mdi-book-open-blank-variant"></i>
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <button>click</button>
+      </div>
+    </section>
+    <!-- SECTION Our Team -->
+    <section class="row">
+      <div class="col-12 text-center">Our Team</div>
+      <div class="col-3"><img
+          src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          alt="" class="img-fluid">
+        <h3>Mark Man</h3>
+        <p>Lorem, ipsum.</p>
+        <div class="d-flex">
+          <i class="mdi mdi-facebook"></i>
+          <i class="mdi mdi-facebook"></i>
+          <i class="mdi mdi-facebook"></i>
+          <i class="mdi mdi-facebook"></i>
+        </div>
+      </div>
+
+      <div class="col-3"><img
+          src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          alt="" class="img-fluid">
+        <h3>Mark Man</h3>
+        <p>Lorem, ipsum.</p>
+        <div class="d-flex">
+          <i class="mdi mdi-facebook"></i>
+          <i class="mdi mdi-facebook"></i>
+          <i class="mdi mdi-facebook"></i>
+          <i class="mdi mdi-facebook"></i>
+        </div>
+      </div>
+      <div class="col-3"><img
+          src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          alt="" class="img-fluid">
+        <h3>Mark Man</h3>
+        <p>Lorem, ipsum.</p>
+        <div class="d-flex">
+          <i class="mdi mdi-facebook"></i>
+          <i class="mdi mdi-facebook"></i>
+          <i class="mdi mdi-facebook"></i>
+          <i class="mdi mdi-facebook"></i>
+        </div>
+      </div>
+      <div class="col-3"><img
+          src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          alt="" class="img-fluid">
+        <h3>Mark Man</h3>
+        <p>Lorem, ipsum.</p>
+        <div class="d-flex">
+          <i class="mdi mdi-facebook"></i>
+          <i class="mdi mdi-facebook"></i>
+          <i class="mdi mdi-facebook"></i>
+          <i class="mdi mdi-facebook"></i>
+        </div>
+      </div>
+
+
+
+
+
+    </section>
+    <!-- SECTION Recent blog Posts -->
+    <section class="row">
+      <div class="col-12 text-center">Recent Blog Posts</div>
+      <div class="col-12 text-center"> <i class="mdi mdi-line-scan"></i>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, laboriosam!</p>
+      </div>
+      <div class="col-4 p-5 my-5">
+        <img class="img-fluid blog-img"
+          src="https://images.unsplash.com/photo-1664575602807-e002fc20892c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+          alt="blog-post">
+        <h3>politics</h3>
+        <b>Lorem ipsum dolor sit amet.</b>
+        <div class="d-flex">
+          <i class="mdi mdi-account p-2"></i>
+          <div class="d-flex flex-column">
+            <h2>Name</h2>
+            <p>title</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 p-5 my-5">
+        <img class="img-fluid blog-img"
+          src="https://images.unsplash.com/photo-1664575602807-e002fc20892c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+          alt="blog-post">
+        <h3>politics</h3>
+        <b>Lorem ipsum dolor sit amet.</b>
+        <div class="d-flex">
+          <i class="mdi mdi-account p-2"></i>
+          <div class="d-flex flex-column">
+            <h2>Name</h2>
+            <p>title</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 p-5 my-5">
+        <img class="img-fluid blog-img"
+          src="https://images.unsplash.com/photo-1664575602807-e002fc20892c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+          alt="blog-post">
+        <h3>politics</h3>
+        <b>Lorem ipsum dolor sit amet.</b>
+        <div class="d-flex">
+          <i class="mdi mdi-account p-2"></i>
+          <div class="d-flex flex-column">
+            <h2>Name</h2>
+            <p>title</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-4">B2</div>
+      <div class="col-4">B3</div> -->
+    </section>
+    <!-- SECTION Contact -->
+    <section class="row px-5">
+      <div class="col-12 text-center">Contact</div>
+      <div class="col-12 text-center"> <i class="mdi mdi-line-scan"></i>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, laboriosam!</p>
+      </div>
+    </section>
+
+    <!-- SECTION contact form -->
+    <section class="row px-5 pb-5">
+      <div class="col-6 dark-bg">
+        <div class="d-flex light-bg m-2">
+          <i class="mdi mdi-email"></i>
+          <div class="d-flex flex-column">
+            <h2>Location</h2>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="d-flex light-bg m-2">
+          <i class="mdi mdi-email"></i>
+          <div class="d-flex flex-column">
+            <h2>Location</h2>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="d-flex light-bg m-2">
+          <i class="mdi mdi-email"></i>
+          <div class="d-flex flex-column">
+            <h2>Location</h2>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="d-flex light-bg m-2">
+          <i class="mdi mdi-email"></i>
+          <div class="d-flex flex-column">
+            <h2>Location</h2>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+      </div>
+      <div class=" col-6 d-flex flex-column">
+        <div class="d-flex">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+          </div>
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="subject" aria-label="subject">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Message" aria-label="Message">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SECTION footer -->
+  <Footer>
+    <!-- Footer -->
+    <section class="row text-light">
+      <div class="col-6 dark-bg">IMPACT</div>
+      <div class="col-2 dark-bg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, quod!</div>
+      <div class="col-2 dark-bg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, quod!</div>
+      <div class="col-2 dark-bg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, quod!</div>
+      <div class="col-12 dark-bg text-center"> Lorem ipsum dolor sit amet.</div>
+    </section>
+  </Footer>
+
+</body>
+
+</html>
